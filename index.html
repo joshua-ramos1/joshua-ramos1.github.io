@@ -1,0 +1,74 @@
+<html>
+    <head>
+        <title>Your Page Title</title>
+        <link rel="stylesheet" href="phone.css">
+    </head>
+    <body>
+        <div class="tabs" id="tab_bar"></div>
+            <button class="className" id="dialerButton">Dialer</button>
+            <button class="className" id="listButton">Contact List</button>
+            <button class="className" id="AddContButton">Add Contact</button>
+        </div>
+            <div class="content"id="contentid">
+                <div class="screen"id="dialerid">
+                    <h2>Dialer</h2>
+                    <input class="innumber"id="inputnumber"</input>
+                    <div class="row">
+                        <button class="phonebutton" id="phone1">1</button>
+                        <button class="phonebutton" id="phone2">2</button>
+                        <button class="phonebutton" id="phone3">3</button>
+                    </div>
+                    <div class="row">
+                        <button class="phonebutton" id="phone4">4</button>
+                        <button class="phonebutton" id="phone5">5</button>
+                        <button class="phonebutton" id="phone6">6</button>
+                    </div>
+                    <div class="row">
+                        <button class="phonebutton" id="phone7">7</button>
+                        <button class="phonebutton" id="phone8">8</button>
+                        <button class="phonebutton" id="phone9">9</button>
+                    </div>
+                    <div class="row">
+                        <button class="phonebutton" id="phone*">*</button>
+                        <button class="phonebutton" id="phone0">0</button>
+                        <button class="phonebutton" id="phone#">#</button>
+                    </div>
+                    <div class="row">
+                        <button class="dialclear" id="phonedial">DIAL</button>
+                        <button class="dialclear" id="phoneclear">CLEAR</button>
+                    </div>
+                </div>
+                <div class="screen"id="contact_listid">
+                    <h2>Contact List</h2>
+                    <div class="phone" id="buttons0"></div>
+                        <button class="contactbutton" id="contact1">Joshua Ramos</button>
+                        <button class="contactbutton" id="contact2">Joey Ramos</button>
+                        <button class="contactbutton" id="contact3">Mary Ramos</button>
+                        <button class="contactbutton" id="contact1">Dak Prescott</button>
+                        <button class="contactbutton" id="contact2">Zeke Elliott</button>
+                        <button class="contactbutton" id="contact3">Tony Romo</button>
+                    </div>
+                </div>
+                <div class="screen"id="add_contactid">
+                    <h2>Add Contact</h2>
+                    <div class="addcontact" id="addcontactscreen"></div>
+                        <h4>Name</h4>
+                        <input id="inputname" placeholder="John Doe"</input>
+                        <h4>Phone Number</h4>
+                        <input id="inputphonenumber" placeholder="(123) 456-7891"</input>
+                        <h4>Email Address</h4>
+                        <input id="inputemail" placeholder="John.Doe@gmail.com"</input>
+                        <div class="adddd">
+                            <button class="addbutton" id="add_contact">Add Contact</button>
+                            <button class="addbutton" id="add_clear">Clear</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    </body>
+    <script src="phone.js"></script>
+</html>

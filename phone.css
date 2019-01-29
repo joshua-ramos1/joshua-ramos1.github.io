@@ -1,0 +1,54 @@
+.phonebutton {
+    background-color: #4CAF50; /* Green */
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 3px;
+    height: 50px;
+    width: 100px;
+    display: inline-block;
+    margin-bottom: 10px;
+    box-shadow: 0 5px #999;
+}
+.phonebutton:hover {background-color: #3e8e41}
+.phonebutton:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(2px);
+}
+.dialclear {
+    background-color: #4CAF50; /* Green */
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 8px;
+    height: 50px;
+    width: 152px;
+    display: inline-block;
+    box-shadow: 0 5px #999;
+}
+.dialclear:hover {background-color: #3e8e41}
+.dialclear:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(2px);
+}
+.innumber {
+    width: 308px;
+    height:50px;
+    border-radius: 6px;
+    margin-bottom: 5px;
+}
+
+.contactbutton {
+    background-color: #5194ff; /* Green */
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 3px;
+    height: 50px;
+    width: 25%;
+    display: inline-block;
+    margin-bottom: 10px;
+    box-shadow: 0 5px #999;
+}
