@@ -1,0 +1,135 @@
+<html lang="en">
+    <head>
+        <title>Josh's Page'</title>
+        <link rel="stylesheet" href="phone.css">
+    </head>
+    <body>
+        <div class="tabs" id="tab_bar"></div>
+            <button class="topbutton" id="dialerButton" accesskey="1">Dialer</button>
+            <button class="topbutton" id="listButton" accesskey="2">Contact List</button>
+            <button class="topbutton" id="AddContButton" accesskey="3">Add Contact</button>
+			<button class="topbutton" id="helpButton" accesskey="4">Help</button>
+        </div>
+            <div class="content"id="contentid">
+                <div class="screen"id="dialerid" role="main">
+                    <h2>Dialer</h2>
+                    <input class="innumber"id="inputnumber">
+                    <div class="row">
+                        <button class="phonebutton" id="phone1" value="1">1</button>
+                        <button class="phonebutton" id="phone2" value="2">2</button>
+                        <button class="phonebutton" id="phone3" value="3">3</button>
+                    </div>
+                    <div class="row">
+                        <button class="phonebutton" id="phone4" value="4">4</button>
+                        <button class="phonebutton" id="phone5" value="5">5</button>
+                        <button class="phonebutton" id="phone6" value="6">6</button>
+                    </div>
+                    <div class="row">
+                        <button class="phonebutton" id="phone7" value="7">7</button>
+                        <button class="phonebutton" id="phone8" value="8">8</button>
+                        <button class="phonebutton" id="phone9" value="9">9</button>
+                    </div>
+                    <div class="row">
+                        <button class="phonebutton" id="phone*" value="*">*</button>
+                        <button class="phonebutton" id="phone0" value="0">0</button>
+                        <button class="phonebutton" id="phone#" value="#">#</button>
+                    </div>
+                    <div class="row">
+                        <button class="dialclear" id="phonedial">DIAL</button>
+                        <button class="dialclear" id="phoneclear">CLEAR</button>
+                    </div>
+                </div>
+                <div class="screen"id="contact_listid" role="navigation">
+                    <h2>Contact List</h2>
+
+						<table>
+						  <tr>
+						    <th>Name</th>
+						    <th>Email</th>
+						    <th>Phone Number</th>
+							<th>Contact Photo</th>
+						  </tr>
+						  <tr>
+						    <td>Mary Ramos</td>
+						    <td>Mary.Ramos@email.com</td>
+						    <td>534-343-8658</td>
+							<td><img src="contact.png" alt="empty profile picture" height="42" width="42"></td>
+						  </tr>
+						  <tr>
+						    <td>Joey Ramos</td>
+						    <td>Joey.Ramos@email.com</td>
+						    <td>873-234-7852</td>
+							<td><img src="contact.png" alt="empty profile picture" height="42" width="42"></td>
+						  </tr>
+						  <tr>
+						    <td>Elon Musk</td>
+						    <td>Elon@Elon.com</td>
+						    <td>421-564-9237</td>
+							<td><img src="elon.jpeg" alt="Picture of elon musk" height="42" width="42"></td>
+						  </tr>
+						  <tr>
+						    <td>Papa John</td>
+						    <td>getyour@pizza.pi</td>
+						    <td>214-453-1932</td>
+							<td><img src="pizza.jpg" alt="Picture of a pizza" longdesc= "Pizza photo came from https://www.tripadvisor.co.nz" height="42" width="42"></td>
+						  </tr>
+						  <tr>
+						    <td>Johnny Appleseed</td>
+						    <td>John@apple.com</td>
+						    <td>123-345-5677</td>
+							<td><img src="apple.jpg" alt="picture of johnny appleseed" longdesc= "Johnny Apple Seed photo came from https://en.wikipedia.org/wiki/Johnny_Appleseed" height="42" width="42"></td>
+						  </tr>
+						</table>
+                </div>
+                <div class="screen"id="add_contactid" role="navigation">
+                    <h2>Add Contact</h2>
+                    <div class="addcontact" id="addcontactscreen"></div>
+                        <h4>Name</h4>
+                        <input id="inputname" placeholder="John Doe">
+                        <h4>Phone Number</h4>
+                        <input id="inputphonenumber" placeholder="(123) 456-7891">
+                        <h4>Email Address</h4>
+                        <input id="inputemail" placeholder="John.Doe@gmail.com">
+                        <div class="adddd">
+                            <button class="addbutton" id="add_contact">Add Contact</button>
+                            <button class="addbutton" id="add_clear">Clear</button>
+                        </div>
+                    </div>
+					<div class="help"id="help_id">
+						<h2>I Need Help!</h2>
+
+						<table>
+						  <tr>
+						    <th>Key</th>
+						    <th>Description</th>
+						  </tr>
+						  <tr>
+						    <td>1</td>
+						    <td>Go to Dialer</td>
+						  </tr>
+						  <tr>
+						    <td>2</td>
+						    <td>Go to Contact List</td>
+						  </tr>
+						  <tr>
+						    <td>3</td>
+						    <td>Go to Add Contact</td>
+						  </tr>
+						  <tr>
+						    <td>4</td>
+						    <td>Go to Help</td>
+						  </tr>
+						</table>
+						<h6>Johnny Apple Seed photo came from "https://en.wikipedia.org/wiki/Johnny_Appleseed"</h6>
+						<h6>Elon Musk photo came from "https://www.biography.com/people/elon-musk-20837159"</h6>
+						<h6>Pizza photo came from "https://www.tripadvisor.co.nz"</h6>
+					</div>
+                </div>
+            </div>
+        </div>
+        
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    </body>
+    <script src="phone.js"></script>
+</html>
