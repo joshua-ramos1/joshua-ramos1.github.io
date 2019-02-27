@@ -10,7 +10,7 @@
     margin-bottom: 10px;
     box-shadow: 0 5px #999;
 }
-.phonebutton:hover {background-color: #3e8e41}
+
 .phonebutton:active {
     background-color: #3e8e41;
     box-shadow: 0 5px #666;
@@ -42,7 +42,6 @@ tr:nth-child(even) {
     display: inline-block;
     box-shadow: 0 5px #999;
 }
-.dialclear:hover {background-color: #3e8e41}
 .dialclear:active {
     background-color: #3e8e41;
     box-shadow: 0 5px #666;
@@ -90,10 +89,6 @@ tr:nth-child(even) {
   transition:800ms ease all;
   outline:none;
 }
-.topbutton:hover{
-  background:#fff;
-  color:#1AAB8A;
-}
 .topbutton:before,button:after{
   content:'';
   position:absolute;
@@ -110,7 +105,4 @@ tr:nth-child(even) {
   left:0;
   bottom:0;
 }
-.topbutton:hover:before,button:hover:after{
-  width:100%;
-  transition:800ms ease all;
-}
+
